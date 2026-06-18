@@ -18,3 +18,7 @@ print("liter fuel for travel is", fuel_for_travel)
 total_fuel=95
 fuel_remains_after_mission=total_fuel - fuel_for_travel
 print("the fuel that remains after tne mission is", fuel_remains_after_mission)
+countdown_conversion=(int(input("how much secons to the mission?")))
+print("in minutes it is", countdown_conversion / 60)
+print ("in hours it is", countdown_conversion / 60 / 60)
+print ("in seconds it is", countdown_conversion)
