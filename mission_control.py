@@ -12,6 +12,7 @@ print (type (mission_active_status))
 travel_distance_in_km=20
 print ("full distance for a trip from base to target and back in km is", travel_distance_in_km)
 fuel_usage=3
-fuel_for_travel=(60)
+fuel_for_travel=fuel_usage * travel_distance_in_km
 print("liter fuel for km is", fuel_usage)
 print("liter fuel for travel is", fuel_for_travel)
+total_fuel=40
