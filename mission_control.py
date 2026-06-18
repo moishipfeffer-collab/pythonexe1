@@ -25,3 +25,6 @@ print ("in seconds it is", countdown_conversion)
 distance_formatting=(int(input("how many km is the distance")))
 distens_in_miels=(distance_formatting * 0.621) 
 print ("the distens in miels is: ", distens_in_miels)
+new_agent_name=input("what is the new agent name")
+print("the new agents are", new_agent_name + " and", agent_name)
+
