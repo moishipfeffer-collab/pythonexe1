@@ -15,4 +15,6 @@ fuel_usage=3
 fuel_for_travel=fuel_usage * travel_distance_in_km
 print("liter fuel for km is", fuel_usage)
 print("liter fuel for travel is", fuel_for_travel)
-total_fuel=40
+total_fuel=95
+fuel_remains_after_mission=total_fuel - fuel_for_travel
+print("the fuel that remains after tne mission is", fuel_remains_after_mission)
