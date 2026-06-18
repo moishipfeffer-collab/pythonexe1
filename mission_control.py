@@ -9,3 +9,6 @@ print (type(name))
 print (type(mission_code))
 print (type(distens_to_target))
 print (type (mission_active_status))
+travel_distance=20
+print ("full distance for a trip from base to target and back is", travel_distance)
+ 
