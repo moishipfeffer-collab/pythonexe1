@@ -7,3 +7,15 @@ if where_to_go == "forest":
   print("You find a sleeping wolf")
  else:
   print("Invalid forest action")
+elif where_to_go == "cave":
+  have_a_torch=input("do you have a torch? ")
+  if have_a_torch == "yes":
+   left_or_right=input("do you want to go left or right? ")
+   if left_or_right == "left":
+    print("You find gold") 
+   elif left_or_right == "right":
+    print ("You find bats")
+   else:
+    print ("Invalid cave path")
+  else:
+   print("It is too dark to enter")  
