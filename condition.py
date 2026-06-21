@@ -32,6 +32,16 @@ if given_password == password:
     print("Access approved")
 else:
     print("Access denied") 
-        
+#section 6
+score = 72
+if score > 89:
+    print("Excellent")   
+elif score > 74:
+    print("good")  
+elif score > 59:
+    print("pass")
+else:
+    print("fail")            
+
 
 
