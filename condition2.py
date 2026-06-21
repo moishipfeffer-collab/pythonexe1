@@ -31,7 +31,7 @@ match action:
   case "add": print(number_1 + number_2)
   case "subtract": print(number_1 - number_2)
   case "multiply": print(number_1 * number_2)
-  case "": print("Unknown action")
+  case _: print("Unknown action")
 # section 3
 computer_choice = "rock"
 rock_paper_scissors=input("what do you want to enter? \n rock. \n paper \n scissors. \n chosse: ")
@@ -45,3 +45,21 @@ elif rock_paper_scissors == "rock":
  print("drow")
 else:
  print("Invalid move")
+# section 4
+correct_pin = 4321 
+balance = 500
+given_pin=int(input("give a pin code: "))
+if given_pin == correct_pin:
+ noney=int(input("how much money do you want to withdraw? "))
+ if noney > balance:
+  print("Not enough money")
+ else:
+   entering=input("do you want a receipt? ")
+   if entering == "yes":
+    print("Withdrawal approved with receipt")
+   elif entering == "no":
+    print("Withdrawal approved without receipt")
+   else:
+    print("Withdrawal approved")
+else:
+ print("Wrong PIN")    
