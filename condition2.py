@@ -32,4 +32,16 @@ match action:
   case "subtract": print(number_1 - number_2)
   case "multiply": print(number_1 * number_2)
   case "": print("Unknown action")
-
+# section 3
+computer_choice = "rock"
+rock_paper_scissors=input("what do you want to enter? \n rock. \n paper \n scissors. \n chosse: ")
+if rock_paper_scissors == computer_choice:
+ print("Draw")
+elif rock_paper_scissors == "paper":
+ print("You win")
+elif rock_paper_scissors == "scissors": 
+ print("Computer wins")
+elif rock_paper_scissors == "rock":
+ print("drow")
+else:
+ print("Invalid move")
