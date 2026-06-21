@@ -62,4 +62,15 @@ if given_pin == correct_pin:
    else:
     print("Withdrawal approved")
 else:
- print("Wrong PIN")    
+ print("Wrong PIN")  
+ # section 5
+club_member=input("are you a club member? ")
+if club_member == "yes":
+ coupon=input("do you have a coupon? ")
+ if coupon == "yes":
+  print("Free delivery and 10 discount")
+ else:
+  print("Free delivery") 
+elif club_member == "no":
+ print("Delivery costs 15")  
+  
