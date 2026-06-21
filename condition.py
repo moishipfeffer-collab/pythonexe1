@@ -41,7 +41,26 @@ elif score > 74:
 elif score > 59:
     print("pass")
 else:
-    print("fail")            
+    print("fail")  
+#section 7
+given_number_1=int(input("give number 1: "))
+given_number_2=int(input("give number 2: "))
+if given_number_1 > given_number_2:
+    print("First is bigger")
+elif given_number_1 < given_number_2: 
+    print("Second is bigger")
+else:
+    print ("Equal")  
+sektion 8
+fuel = 40 
+distance = 30
+if fuel - distance > 9: 
+    print("Enough fuel with reserve")      
+elif fuel - distance > 0:
+    print("Enough fuel, low reserve")
+else:
+    print("Not enough fuel")    
+
 
 
 
