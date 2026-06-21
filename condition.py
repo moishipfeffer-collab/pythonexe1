@@ -51,7 +51,7 @@ elif given_number_1 < given_number_2:
     print("Second is bigger")
 else:
     print ("Equal")  
-sektion 8
+#sektion 8
 fuel = 40 
 distance = 30
 if fuel - distance > 9: 
@@ -59,8 +59,22 @@ if fuel - distance > 9:
 elif fuel - distance > 0:
     print("Enough fuel, low reserve")
 else:
-    print("Not enough fuel")    
-
-
+    print("Not enough fuel")  
+# section 9
+given_user_name=input("what is your user name? ")  
+if given_user_name:
+    print("hello", given_user_name)    
+else:
+    print("Guest user")
+#section 10
+hour = 21
+if hour < 0 or hour > 23:
+    print ("Invalid hour")
+elif hour < 12:
+    print("Morning") 
+elif hour < 18:
+    print("Afternoon") 
+else:
+    print("Evening")           
 
 
