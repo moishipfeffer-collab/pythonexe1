@@ -18,4 +18,9 @@ elif where_to_go == "cave":
    else:
     print ("Invalid cave path")
   else:
-   print("It is too dark to enter")  
+   print("It is too dark to enter") 
+elif where_to_go == "river":
+ print("You find a boat")
+else:
+ print("Unknown place")
+     
