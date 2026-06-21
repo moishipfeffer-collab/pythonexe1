@@ -23,4 +23,7 @@ elif where_to_go == "river":
  print("You find a boat")
 else:
  print("Unknown place")
-     
+ number_1=float(input("give number 1 "))
+ number_2=float(input("give number 2 "))
+ action=input("choose an action \n 1) add \n 2) subtract \n multiply \n choose: ")
+ 
