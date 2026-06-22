@@ -10,4 +10,6 @@ print(agents[1:4])
 #section 5
 agents.append("Foxtrot")
 print(agents)
-
+#section 6
+agents.insert(2,"zulu")
+print(agents)
