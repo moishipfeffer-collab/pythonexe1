@@ -13,3 +13,6 @@ print(agents)
 #section 6
 agents.insert(2,"zulu")
 print(agents)
+#section 7
+agents.remove("Bravo")
+print(agents)
