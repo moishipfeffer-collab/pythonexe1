@@ -16,3 +16,5 @@ print(agents)
 #section 7
 agents.remove("Bravo")
 print(agents)
+#section 8
+print(len(agents))
